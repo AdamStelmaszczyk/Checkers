@@ -6,4 +6,4 @@ script:
   - jar cfe checkers.jar Checkers -C src .
 
 # To run:
-# java -jar checkers.jar
+# java -jar checkers.jar &
