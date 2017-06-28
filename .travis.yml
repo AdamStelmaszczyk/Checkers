@@ -1,0 +1,9 @@
+language: java
+
+script:
+  - mkdir bin
+  - javac -d bin $(find src -name *.java)
+  - jar cfe checkers.jar Checkers -C src .
+
+# To run:
+# java -jar checkers.jar
